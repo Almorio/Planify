@@ -20,8 +20,12 @@ export default function TaskForm({ addTask}: TaskFormProps) {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             placeholder="Adicionar tarefa..." />
-            <button type="submit"> + </button>
+            <button 
+             type="submit"
+             className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl ">Adicionar</button>
         </form>
 
+        
     );
 };
+

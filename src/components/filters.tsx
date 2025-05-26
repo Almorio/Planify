@@ -13,6 +13,7 @@ export default function Filters ({ filter, setFilter}: FiltersProps) {
                 Todas
             </button>
             <button 
+            
             onClick={()=> setFilter("daily")}
             className={filter === "daily" ? "active" : ""}>
                 Diárias

@@ -7,6 +7,7 @@ import  Filters  from "./components/filters";
 import type { FilterType, Task } from "./types/tasktypes";
 
 
+
 export  const App = () =>{
     const [tasks, setTasks] = useState<Task[]>([]);
     const [filter, setFilter] = useState<FilterType>("all");
